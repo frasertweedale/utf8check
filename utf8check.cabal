@@ -27,7 +27,6 @@ homepage: https://github.com/frasertweedale/utf8check
 
 -- A URL where users can report bugs.
 -- bug-reports:
-
 -- The license under which the package is released.
 license:            BSD-3-Clause
 
@@ -48,6 +47,11 @@ category:           Text
 extra-source-files: CHANGELOG.md
 
 tested-with: GHC == 8.10.7 || ==9.0.2 || ==9.2.7 || ==9.4.5 || == 9.6.2
+
+source-repository head
+  type:     git
+  location: https://github.com/haskell/cabal
+
 
 
 library
