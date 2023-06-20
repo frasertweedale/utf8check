@@ -20,7 +20,7 @@ version:            0.1.0.0
 synopsis:           check if input is valid utf8
 
 -- A longer description of the package.
--- description:
+description: The program does what it says on the tin.
 
 -- URL for the project homepage or repository.
 homepage: https://github.com/frasertweedale/utf8check
@@ -62,7 +62,7 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:
-      base >= 4.12 && < 4.18
+      base >= 4.12 && < 4.19
       , bytestring >= 0.10 && < 0.12
       , text >= 1.2 && < 3
 
@@ -84,7 +84,7 @@ executable utf8check
 
     -- Other library packages from which modules are imported.
     build-depends:
-      base >= 4.12 && < 4.18
+      base >= 4.12 && < 4.19
       , bytestring >= 0.10 && < 0.12
       , utf8check
 
@@ -109,4 +109,4 @@ test-suite utf8check-test
 
     -- Test dependencies.
     build-depends:
-      base >= 4.12 && < 4.18
+      base >= 4.12 && < 4.19
